@@ -5,7 +5,7 @@ cu = db.cursor()
 cu.execute('create database bank')
 cu.execute('use bank')
 
-db = c.connect(host='localhost', user='root', passwd='2580', database='bank')
+db = c.connect(host='localhost', user='<your_username>', passwd='<your_password>', database='bank')
 cu = db.cursor()
 sql = 'create table information (Name varchar(100) NOT NULL ,Aadhar bigint NOT NULL  ,Account_Number bigint NOT NULL PRIMARY KEY,Balance bigint)'
 cu.execute(sql)
