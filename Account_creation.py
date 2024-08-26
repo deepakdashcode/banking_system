@@ -1,7 +1,7 @@
 import mysql.connector as c
 from main import *
 
-db = c.connect(host='localhost', user='root', passwd='2580', database='bank')
+db = c.connect(host='localhost', user='', passwd='', database='bank')
 cu = db.cursor()
 while True:
     name = input('Enter your name\n')
