@@ -1,6 +1,6 @@
 import mysql.connector as c
 
-db = c.connect(host='localhost', user='root', passwd='2580')
+db = c.connect(host='localhost', user='<your_username>', passwd='<your_password>')
 cu = db.cursor()
 cu.execute('create database bank')
 cu.execute('use bank')
